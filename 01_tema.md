@@ -18,19 +18,19 @@ Defina um tema específico, relevante e viável para o artigo de revisão biblio
 
 ### Tema delimitado
 
-`[A injeção indireta de prompt ocorre quando arquivos externos, como PDFs, links da WEB e arquivos são usados como instruções para IA sem que o usuario perceba, isso pode acontecer de formas passivas ou ativas.]`
+`[Injeção indireta de prompt em assistentes de IA generativa: quando conteúdos externos, como PDFs, páginas web e documentos, contêm instruções escondidas que a IA interpreta como comandos sem que o usuário perceba. Isso pode acontecer de forma passiva (a IA busca o conteúdo sozinha) ou ativa (o atacante entrega o conteúdo, por exemplo, por e-mail).]`
 
 ### Do tema amplo ao específico
 
 - Tema amplo: `[Segurança da Informação em Inteligência Artificial]`
-- Objeto estudado: `[Assistente de IA generativa]`
-- Contexto ou aplicação: `[Assistentes de IA generativa baseados em LLMs, voltados ao usuário final, que permitem o envio de arquivos]`
-- Aspecto que será analisado: `[Os mecanismos pelos quais prompts, payloads e instruções ocultas são passadas pela IA]`
-- O que ficará fora do estudo: `[Injeção direta de prompt, testes práticos, outros ataques a segurança de modelos de IA]`
+- Objeto estudado: `[Injeção indireta de prompt]`
+- Contexto ou aplicação: `[Assistentes de IA generativa baseados em LLMs, voltados ao usuário final, que processam conteúdo externo (arquivos enviados, páginas web e e-mails)]`
+- Aspecto que será analisado: `[Os mecanismos pelos quais instruções maliciosas ocultas (payloads) chegam à IA e são interpretadas por ela]`
+- O que ficará fora do estudo: `[Injeção direta de prompt, testes práticos e outros ataques à segurança de modelos de IA]`
 
 ### Justificativa
 
-`[A injeção indireta de prompt decorre quando o usuario de forma erronea e inocente sobe arquivos externos, como PDFs, links da WEB e outros arquivos. Esses arquivos podem gerar influencia em suas futuras respostas ao usuario sem ele ao menos perceber, isso pode gerar confusão com a verdade dita e também abre lacunas em prol da segurança de dados sensíveis, existem ataques onde prompts e instruções maliciosas estão escondidas entre esses arquivos, isso pode gerar um comportamento inadequado da IA incluindo vazamento de dados sensiveis.]`
+`[A injeção indireta de prompt ocorre quando um atacante esconde instruções maliciosas em conteúdos externos, como PDFs, páginas web e outros arquivos, que o usuário envia ou que a IA lê. Essas instruções podem influenciar as respostas seguintes da IA sem que o usuário perceba, gerando respostas incorretas ou manipuladas. Isso também abre brechas na segurança e pode levar a um comportamento inadequado da IA, incluindo o vazamento de dados sensíveis (GRESHAKE et al., 2023).]`
 
 ### Viabilidade
 
